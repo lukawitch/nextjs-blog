@@ -1,0 +1,42 @@
+.navBack {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+}
+
+.navTotal {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: sticky;
+  top: 0; /* required */
+  z-index: 6;
+  height: 10%;
+}
+.navImage {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 10px 0;
+}
+.nav {
+  float: left;
+}
+
+.navText {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navText:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4caf50;
+}

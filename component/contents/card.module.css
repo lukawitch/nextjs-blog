@@ -1,0 +1,26 @@
+/*버튼들*/
+.card {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 5px -10px;
+  border-radius: 10px;
+  background-color: #00d3ee;
+  color: white;
+}
+/*이미지모양*/
+.imgShape {
+  border-radius: 10px;
+  width: 100%;
+}
+/*카드위치*/
+.cardPosition {
+  margin: 0 5%;
+}
+
+.fontPosition {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 15pt;
+}
